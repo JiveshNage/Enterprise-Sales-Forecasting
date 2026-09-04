@@ -42,6 +42,17 @@ The final system compares **ARIMA** and **Prophet**, evaluates their forecasting
 
 ---
 
+
+## 📊 Executive Dashboard
+
+<p align="center">
+  <img src="asset\executive-dashboard.png" width="1000"/>
+</p>
+
+> An executive-level view of historical sales, forecasting performance,
+> regional performance, category performance, and key business KPIs.
+
+
 ## 💡 Why This Project?
 
 Sales forecasting directly impacts:
@@ -148,6 +159,13 @@ The project investigates:
 * 📅 Monthly patterns
 * 🔁 Year-over-year changes
 
+
+<p align="center">
+  <img src="asset\monthly-trends.png" width="1000"/>
+</p>
+
+
+
 ### 04 — Statistical Analysis
 
 The time series is evaluated using the **Augmented Dickey-Fuller (ADF) test** to assess stationarity before forecasting.
@@ -193,6 +211,10 @@ The models were evaluated on the held-out test period.
 | ------------ | ----------: | ---------: | ----------: |
 | 🥇 **ARIMA** | **$10.03M** | **$4.80M** | **652.72%** |
 | Prophet      |    $113.47M |    $98.17M |    5659.75% |
+
+<p align="center">
+  <img src="asset\arima-vs-prophet.png" width="1000"/>
+</p>
 
 ### 🥇 Current Winner: ARIMA
 
